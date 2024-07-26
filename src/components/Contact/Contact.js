@@ -13,12 +13,12 @@ function Contact  () {
 
       <div id='cont'>
 
-        <a href="https://www.linkedin.com/in/ameer-hamza-748618244/" target="_blank" aria-label='linkedin' className='link link--icon'> <FaLinkedin size={60}/> </a>
-        <a href="https://github.com/Ameer-Hamza289" target="_blank" aria-label='github' className='link link--icon'> <BsGithub  size={60}/> </a>
+        <a href="https://www.linkedin.com/in/aqib-nawab-66723b252//" target="_blank" aria-label='linkedin' className='link link--icon'> <FaLinkedin size={60}/> </a>
+        <a href="https://github.com/AQIB-NAWAB" target="_blank" aria-label='github' className='link link--icon'> <BsGithub  size={60}/> </a>
       
-        <a href='mailto:ameer.hamza92002@gmail.com' aria-label="email" className='link link--icon'> <MdEmail  size={60}/> </a>
+        <a href='mailto:aqibnawab1100@gmail.com' aria-label="email" className='link link--icon'> <MdEmail  size={60}/> </a>
 
-         <a href='tel:+923268842130' aria-label="phone" className='link link--icon'> <FaPhone size={60}/> </a>
+         <a href='tel:+923084556535' aria-label="phone" className='link link--icon'> <FaPhone size={60}/> </a>
       </div>
      
     </section>

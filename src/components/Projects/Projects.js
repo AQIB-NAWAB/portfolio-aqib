@@ -1,7 +1,25 @@
 import {FaReact,FaNode} from "react-icons/fa"
-import {SiCss3,SiHtml5,SiMongodb} from "react-icons/si"
+import {SiCss3,SiHtml5} from "react-icons/si"
 import {IoLogoJavascript} from "react-icons/io"
+import {TbBrandNextjs} from "react-icons/tb"
 
+import {
+  SiMongodb,
+  SiRedux,
+  SiExpress,
+  SiPrisma,
+  SiVercel,
+  SiJquery,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiMysql,
+  SiGit,
+  SiTypescript,
+  SiKubernetes,
+  SiAmazonaws,
+  SiDocker
+  
+} from "react-icons/si";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 //import assets
@@ -38,26 +56,38 @@ function Projects()
 
       <div>
          <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
-            <SplideSlide>
-             <img src={Rpreview1} alt="Image 1"/>
-            </SplideSlide>
-           <SplideSlide>
-           <img src={Rpreview2} alt="Image 2"/>
+         <SplideSlide>
+           <img src={"/projects/banner.png"} alt="Image 2"/>
            </SplideSlide>
 
+            <SplideSlide>
+             <img src={"/projects/rbteausahome.png"} alt="Image 1"/>
+            </SplideSlide>
            <SplideSlide>
-           <img src={Rpreview3} alt="Image 2"/>
+           <img src={"/projects/chat.png"} alt="Image 2"/>
            </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/drinks.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/locations.png"} alt="Image 2"/>
+           </SplideSlide>
+
+           
 
         </Splide>
       </div>
    
      <div>
 
-        <h3 className="about_project">Hotel Reservation App</h3>
+        <h3 className="about_project">
+          R&B TEAUSA 
+        </h3>
 
         <p className='project__description'>
-        The Beach Resort App is a Web application focused on providing a seamless booking experience for beachside accommodations. It allows users to easily reserve rooms, check availability, and access essential information about the resort, ensuring a convenient stay.        </p>
+        RBteausa, a renowned tea company with over <b> 1500  franchises </b> across the globe , approached us with a unique challenge Their existing website lacked essential features for updating menus, adding new locations to the map, and establishing effective communication channels between the admin and franchises. In response, we crafted a comprehensive web application with a host of user-friendly features
+       </p>
+       
 
    
         <ul className='project__stack' >
@@ -77,14 +107,11 @@ function Projects()
 
 
       <div id='b'>
-       <a href="https://hotel-reserving-app.netlify.app/"  target="_blank">
+       <a href="https://rbteausa.com/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/Ameer-Hamza289/Beach_Resort" target="_blank" >
-            <span type='button' className='btn btn--outline'>  View Code </span>
-          </a>
     
      </div>
 
@@ -106,26 +133,34 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src={Tpreview1} alt="Image 1"/>
+             <img src={"/projects/xvisionhome.png"} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src={Tpreview2} alt="Image 2"/>
+           <img src={"/projects/xproducts.png"} alt="Image 2"/>
            </SplideSlide>
 
            <SplideSlide>
-           <img src={Tpreview3} alt="Image 2"/>
+           <img src={"/projects/xcard.png"} alt="Image 2"/>
            </SplideSlide>
 
+           <SplideSlide>
+           <img src={"/projects/xcart.png"} alt="Image 2"/>
+           </SplideSlide>
 
+           <SplideSlide>
+           <img src={"/projects/xorder.png"} alt="Image 2"/>
+           </SplideSlide>
         </Splide>
 </div>
 
 <div>
 
-  <h3 className="about_project">Todo List</h3>
+  <h3 className="about_project">X-ONE VISION</h3>
 
   <p className='project__description'>
-  MERN Todo List offers a convenient and flexible solution for managing tasks effectively. It combines the power of the MERN stack with a sleek and intuitive interface, making it the ideal tool for boosting productivity and keeping track of your to-do list.  </p>
+  X-One.Vision is a leading UK-based business card company dedicated to providing high-quality printing solutions for professionals and businesses alike. As a proud contributor to their full-stack website, I played a key role in enhancing the user experience by implementing essential features such as Stripe checkout and cart functionalities, along with custom email logic.
+  
+    </p>
 
 
   <ul className='project__stack' >
@@ -133,10 +168,10 @@ function Projects()
     <li className='project__stack-item' id='stacks'>
       <SiHtml5 size={40} />
        <IoLogoJavascript size={40} />
-      <SiCss3 size={40}/>
-      <FaReact size={40}/>
+      <SiTailwindcss size={40}/>
+      <SiPrisma size={40}/>
       <FaNode size={40}/>
-      <SiMongodb size={40}/>
+      <TbBrandNextjs size={40}/>
 
     </li>
 
@@ -144,15 +179,9 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://mern-todo-list-app.netlify.app/"  target="_blank">
+       <a href="https://x-one.vision/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
-          </a>
-
-
-          <a href="https://github.com/Ameer-Hamza289/MERN_TODO"  target="_blank">
-            <span type='button' className='btn btn--outline'>  View Code </span>
-          </a>
-    
+          </a>    
      </div>
 
 
@@ -172,14 +201,14 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src={Epreview1} alt="Image 1"/>
+             <img src={"/projects/gameHome.png"} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src={Epreview2} alt="Image 2"/>
+           <img src={"/projects/gamePartner.png"} alt="Image 2"/>
            </SplideSlide>
 
            <SplideSlide>
-           <img src={Epreview3} alt="Image 2"/>
+           <img src={"/projects/gameVideo.png"} alt="Image 2"/>
            </SplideSlide>
 
         </Splide>
@@ -187,10 +216,10 @@ function Projects()
 
 <div>
 
-  <h3 className="about_project">Exercise Tracker</h3>
+  <h3 className="about_project">Siege Builders - Clash of Clans Portfolio Site </h3>
 
   <p className='project__description'>
-  The Exercise Tracker is a web application that allows users to track their fitness activities and monitor their progress. With its intuitive interface and comprehensive features, it assists individuals in maintaining an organized exercise routine.  </p>
+  For the gaming company Siege Builders, I crafted a sleek portfolio website seamlessly aligned with the theme of their flagship game, Clash of Clans. The design encapsulates the essence of the game, creating a visually immersive experience for visitors. This concise and dynamic website serves as a perfect showcase for Siege Builders' gaming prowess.  </p>
 
 
   <ul className='project__stack' >
@@ -209,14 +238,11 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://exercise-tracker-app-mern-01.netlify.app/"  target="_blank">
+       <a href="https://dancing-babka-f6e2a6.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/Ameer-Hamza289/mern_exercise-tracker"  target="_blank">
-            <span type='button' className='btn btn--outline'>  View Code </span>
-          </a>
     
      </div>
 
@@ -227,6 +253,223 @@ function Projects()
 </div>
 
 {/* <-------------------------------------------------3 end-------------------------------------------> */}
+
+
+
+<div className='project' id='project'>
+
+<div>
+<Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+            <SplideSlide>
+             <img src={"/projects/bookingHome.png"} alt="Image 1"/>
+            </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/bookingAbout.png"} alt="Image 2"/>
+           </SplideSlide>
+
+           <SplideSlide>
+           <img src={"/projects/bookingDates.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/bookingOffer.png"} alt="Image 2"/>
+           </SplideSlide>
+
+
+
+
+        </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">Agriturismo Santommaso website for bookings using Guesty API  </h3>
+
+  <p className='project__description'>
+  Agriturismo San Tommaso, an Italian resort booking company, faced client dissatisfaction due to the lack of a platform showcasing their offerings To remedy this, we created a website using the Guesty API, offering the following key features:
+  </p>
+
+
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
+
+    </li>
+
+  </ul>
+
+
+   <div id='b'>
+       <a href="https://booking.agriturismo-santommaso.com/"  target="_blank">
+            <span type='button' className='btn btn--outline'>  Watch Live </span>
+          </a>
+
+
+    
+     </div>
+
+
+</div> 
+
+
+</div>
+
+
+
+
+
+
+
+
+<div className='project' id='project'>
+
+<div>
+<Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+            <SplideSlide>
+             <img src={"/projects/hpvsHome.png"} alt="Image 1"/>
+            </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/hpvsChoose.png"} alt="Image 2"/>
+           </SplideSlide>
+
+           <SplideSlide>
+           <img src={"/projects/hpvsDashboard.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/hpvsabout.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/hpvswhatwedo.png"} alt="Image 2"/>
+           </SplideSlide>
+
+
+
+
+
+
+        </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">HPVS Cargo logistic website </h3>
+
+  <p className='project__description'>
+  HPVS Cargo, a leading logistics company, required a website that would effectively communicate their services to potential clients. In response, we crafted a dynamic and visually appealing website that showcases HPVS Cargo's services and expertise. The website features a user-friendly design, making it easy for visitors to navigate and learn more about HPVS Cargo's offerings.
+
+  </p>
+
+
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
+
+    </li>
+
+  </ul>
+
+
+   <div id='b'>
+       <a href="https://hpvs.vercel.app/"  target="_blank">
+            <span type='button' className='btn btn--outline'>  Watch Live </span>
+          </a>
+
+
+    
+     </div>
+
+
+</div> 
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div className='project' id='project'>
+
+<div>
+<Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+            <SplideSlide>
+             <img src={"/projects/toolHome.png"} alt="Image 1"/>
+            </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/toolCal.png"} alt="Image 2"/>
+           </SplideSlide>
+
+           <SplideSlide>
+           <img src={"/projects/toolChart.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/toolChart2.png"} alt="Image 2"/>
+           </SplideSlide>
+
+
+
+
+
+
+        </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">Trakha Budget Calculator Tool  </h3>
+
+  <p className='project__description'>
+  Trakha, a leading financial services company, required a budget calculator tool that would help their clients manage their finances more effectively. In response, we developed a comprehensive budget calculator tool that enables users to input their income and expenses, calculate their budget, and track their spending. The tool features a user-friendly design, making it easy for clients to manage their finances effectively.
+
+  </p>
+
+
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
+
+    </li>
+
+  </ul>
+
+
+   <div id='b'>
+       <a href="https://trakha-app.vercel.app/"  target="_blank">
+            <span type='button' className='btn btn--outline'>  Watch Live </span>
+          </a>
+
+
+    
+     </div>
+
+
+</div> 
+
+
+</div>
+
+
 
 
 

@@ -94,8 +94,13 @@
 
 .vertical-timeline-element-subtitle {
   margin-top: 0.5em;
-  font-size: 0.9em;
+  font-size: 1.12em;
 }
+.vertical-timeline-element-degree{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 1px;
+}
+
 
 .vertical-timeline-element-title {
   font-size: 1.1em;

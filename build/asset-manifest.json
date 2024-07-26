@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5f192a4.css",
+    "main.js": "/static/js/main.1047b550.js",
+    "static/media/Resort-p1.jpg": "/static/media/Resort-p1.dce48d8ed01e36cbb24a.jpg",
+    "static/media/Resort-p3.jpg": "/static/media/Resort-p3.fa6c4e3d0f7c9a656fbf.jpg",
+    "static/media/image.png": "/static/media/image.bf870e81c07529561a4b.png",
+    "static/media/Resort-p2.jpg": "/static/media/Resort-p2.bd741d12aa287c321afa.jpg",
+    "static/media/exercise-p1.jpg": "/static/media/exercise-p1.074e981b72dfcde95ef5.jpg",
+    "static/media/todo-p2.jpeg": "/static/media/todo-p2.39485a2b3ab12f9c13ab.jpeg",
+    "static/media/todo-p3.jpeg": "/static/media/todo-p3.619285114d7c08763366.jpeg",
+    "static/media/exercise-p2.jpg": "/static/media/exercise-p2.3fbe7b62e2551735e7f6.jpg",
+    "static/media/exercise-p3.jpg": "/static/media/exercise-p3.2062623ba16d5ad2a8f6.jpg",
+    "static/media/todo-p1.jpeg": "/static/media/todo-p1.4d87802f3f0ca0e19df6.jpeg",
+    "index.html": "/index.html",
+    "main.d5f192a4.css.map": "/static/css/main.d5f192a4.css.map",
+    "main.1047b550.js.map": "/static/js/main.1047b550.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5f192a4.css",
+    "static/js/main.1047b550.js"
+  ]
+}
