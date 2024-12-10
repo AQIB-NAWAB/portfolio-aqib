@@ -324,7 +324,7 @@ function Projects()
 
 
 
-
+{/* -------------------------------------- 4th start -------------------------------------- */}
 
 <div className='project' id='project'>
 
@@ -399,8 +399,12 @@ function Projects()
 
 
 
+{/* -------------------------------------- 4th end -------------------------------------- */}
 
 
+
+
+{/* -------------------------------------- 5th start -------------------------------------- */}
 
 
 <div className='project' id='project'>
@@ -469,10 +473,233 @@ function Projects()
 
 </div>
 
+{/* -------------------------------------- 5th end  -------------------------------------- */}
+
+
+
+{/* -------------------------------------- 6th start  -------------------------------------- */}
+
+<div className='project' id='project'>
+
+<div>
+<Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+            <SplideSlide>
+             <img src={"/projects/dental_1.png"} alt="Image 1"/>
+            </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/dental_2.png"} alt="Image 2"/>
+           </SplideSlide>
+
+           <SplideSlide>
+           <img src={"/projects/dental_3.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/dental_4.png"} alt="Image 2"/>
+           </SplideSlide>
 
 
 
 
+
+
+        </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">Dental Strivers LMS  </h3>
+
+  <p className='project__description'>
+  Dental Strivers is a leading dental education company that offers online courses for dental professionals. In response to their need for a comprehensive learning management system (LMS), we developed a dynamic and user-friendly platform that enables students to access course materials, complete assignments, and track their progress. The LMS features a sleek and intuitive design, making it easy for students to navigate and engage with course content.
+
+  </p>
+
+
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
+
+    </li>
+
+  </ul>
+
+
+   <div id='b'>
+       <a href="https://dentalstrivers.ca/"  target="_blank">
+            <span type='button' className='btn btn--outline'>  Watch Live </span>
+          </a>
+
+
+    
+     </div>
+
+
+</div> 
+
+
+</div>
+
+
+
+{/* -------------------------------------- 6th end  -------------------------------------- */}
+
+
+
+
+{/*---------------------------------- 7th start ------------------------------------------- */}
+
+<div className='project' id='project'>
+
+<div>
+<Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+            <SplideSlide>
+             <img src={"/projects/data_1.png"} alt="Image 1"/>
+            </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/data_2.png"} alt="Image 2"/>
+           </SplideSlide>
+
+           <SplideSlide>
+           <img src={"/projects/data_3.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/data_4.png"} alt="Image 2"/>
+           </SplideSlide>
+
+
+
+
+
+
+        </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">Data Analyze Site  </h3>
+
+  <p className='project__description'>
+  A site for stores to sells their products and store them more efficiently using the data bundling & data forecasting .
+
+They will upload csv according a specific standard to use features of data bundling and product forecasting
+In result there will be table for data modeling and data forecasting about products with charts
+It will help stores to take right decisions and store their products efficiently
+
+  </p>
+
+
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
+
+    </li>
+
+  </ul>
+
+
+   <div id='b'>
+       <a href="https://data-analyze-site.vercel.app/"  target="_blank">
+            <span type='button' className='btn btn--outline'>  Watch Live </span>
+          </a>
+
+
+    
+     </div>
+
+
+</div> 
+
+
+</div>
+
+
+
+{/*---------------------------------- 7th end ------------------------------------------- */}
+
+
+
+{/*---------------------------------- 8th start ------------------------------------------- */}
+
+
+<div className='project' id='project'>
+
+<div>
+<Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
+            <SplideSlide>
+             <img src={"/projects/map_1.png"} alt="Image 1"/>
+            </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/map_2.png"} alt="Image 2"/>
+           </SplideSlide>
+
+           <SplideSlide>
+           <img src={"/projects/map_3.png"} alt="Image 2"/>
+           </SplideSlide>
+           <SplideSlide>
+           <img src={"/projects/map_4.png"} alt="Image 2"/>
+           </SplideSlide>
+
+
+
+
+
+
+        </Splide>
+</div>
+
+<div>
+
+  <h3 className="about_project">Map for Costco Store  </h3>
+
+  <p className='project__description'>
+  The company was having trouble because their delivery team took too long to find store locations. To fix this, I created a platform. Now, delivery people can easily search for locations, and admins can manage them effortlessly. This makes the whole process smoother and faster for everyone involved.
+  </p>
+
+
+  <ul className='project__stack' >
+ 
+    <li className='project__stack-item' id='stacks'>
+      <SiHtml5 size={40} />
+       <IoLogoJavascript size={40} />
+      <SiCss3 size={40}/>
+      <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
+
+    </li>
+
+  </ul>
+
+
+   <div id='b'>
+       <a href="https://map-eosin.vercel.app/"  target="_blank">
+            <span type='button' className='btn btn--outline'>  Watch Live </span>
+          </a>
+
+
+    
+     </div>
+
+
+</div> 
+
+
+</div>
+
+
+{/*---------------------------------- 8th end ------------------------------------------- */}
     </section>
   )
 }
