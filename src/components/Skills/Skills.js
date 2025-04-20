@@ -4,7 +4,6 @@ import {
   FaReact,
   FaNodeJs,
   FaGithub,
-  FaGit,
 } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import {
@@ -21,127 +20,60 @@ import {
   SiTypescript,
   SiKubernetes,
   SiAmazonaws,
-  SiDocker
-  
+  SiDocker,
+  SiFirebase,
+  SiSocketdotio,
+  SiPostman,
+  SiSwagger,
+  SiGraphql,
+  SiNginx,
+  SiSupabase,
 } from "react-icons/si";
-import Githubcalendar from "react-github-calendar";
 
 import "./Skills.css";
+
+const skills = [
+  { name: "HTML5", icon: <FaHtml5 size={80} id="color" /> },
+  { name: "CSS3", icon: <FaCss3Alt size={80} id="color" /> },
+  { name: "JavaScript", icon: <TbBrandJavascript size={80} id="color" /> },
+  { name: "TypeScript", icon: <SiTypescript size={80} id="color" /> },
+  { name: "React", icon: <FaReact size={80} id="color" /> },
+  { name: "Next.js", icon: <SiNextdotjs size={80} id="color" /> },
+  { name: "Redux", icon: <SiRedux size={80} id="color" /> },
+  { name: "jQuery", icon: <SiJquery size={80} id="color" /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss size={80} id="color" /> },
+  { name: "Node.js", icon: <FaNodeJs size={80} id="color" /> },
+  { name: "Express.js", icon: <SiExpress size={80} id="color" /> },
+  { name: "MongoDB", icon: <SiMongodb size={80} id="color" /> },
+  { name: "MySQL", icon: <SiMysql size={80} id="color" /> },
+  { name: "Prisma", icon: <SiPrisma size={80} id="color" /> },
+  { name: "Firebase", icon: <SiFirebase size={80} id="color" /> },
+  { name: "Socket.IO", icon: <SiSocketdotio size={80} id="color" /> },
+  { name: "Git", icon: <SiGit size={80} id="color" /> },
+  { name: "GitHub", icon: <FaGithub size={80} id="color" /> },
+  { name: "Vercel", icon: <SiVercel size={80} id="color" /> },
+  { name: "Docker", icon: <SiDocker size={80} id="color" /> },
+  { name: "Kubernetes", icon: <SiKubernetes size={80} id="color" /> },
+  { name: "AWS", icon: <SiAmazonaws size={80} id="color" /> },
+  { name: "Postman", icon: <SiPostman size={80} id="color" /> },
+  { name: "Swagger", icon: <SiSwagger size={80} id="color" /> },
+  { name: "GraphQL", icon: <SiGraphql size={80} id="color" /> },
+  { name: "NGINX", icon: <SiNginx size={80} id="color" /> },
+  { name: "Supabase", icon: <SiSupabase size={80} id="color" /> },
+  
+];
 
 function Skills() {
   return (
     <section className="section skills" id="skills">
       <h2 className="section__title about_skills">Skills</h2>
-
       <div id="container" className="skills__list">
-        <li className="skills__list-item btn btn--plain">
-          <FaHtml5 size={80} id="color" />
-          <h5> HTML5</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <FaCss3Alt size={80} id="color" />
-          <h5> CSS3</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <SiTailwindcss size={80} id="color" />
-          <h5>Tailwind</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <TbBrandJavascript size={80} id="color" />
-          <h5> JavaScript</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <SiTypescript size={80} id="color" />
-          <h5> TypeScript</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <FaReact size={80} id="color" />
-          <h5> React</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <SiNextdotjs size={80} id="color" />
-          <h5> Next</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <SiMongodb size={80} id="color" />
-          <h5>MongoDB</h5>
-        </li>
-        <li className="skills__list-item btn btn--plain">
-          <SiPrisma size={80} id="color" />
-          <h5>Prisma</h5>
-        </li>
-
-
-
-        <li className="skills__list-item btn btn--plain">
-          <SiMysql size={80} id="color" />
-          <h5>MySQL</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <SiExpress size={80} id="color" />
-          <h5>Express</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <FaNodeJs size={80} id="color" />
-          <h5>NodeJs</h5>
-        </li>
-
-     
-
-        <li className="skills__list-item btn btn--plain">
-          <SiGit size={80} id="color" />
-          <h5>Git</h5>
-        </li>
-        <li className="skills__list-item btn btn--plain">
-          <FaGithub size={80} id="color" />
-          <h5>GitHub</h5>
-        </li>
-
-       
-
-        <li className="skills__list-item btn btn--plain">
-          <SiVercel size={80} id="color" />
-          <h5>Vercel</h5>
-        </li>
-
-        <li className="skills__list-item btn btn--plain">
-          <SiDocker size={80} id="color" />
-          <h5>Docker</h5>
-        </li>
-
-        <li className="skills_list-item btn btn--plain">
-          <SiKubernetes size={80} id="color" />
-          <h5>Kubernetes</h5>
-        </li>
-        <li className="skills_list-item btn btn--plain">
-          <SiAmazonaws size={80} id="color" />
-          <h5>AWS</h5>
-        </li>
-
-
-      </div>
-
-      <div id="gitstatus">
-        <h2 className="section__title">
-          Days I <span className="about_skills"> Coded</span>
-        </h2>
-        <Githubcalendar
-          username="AQIB-NAWAB"
-          blockSize={15}
-          blockMargin={5}
-          fontSize={16}
-          color="#2978b5"
-          year={2024}
-        />
+        {skills.map((skill, index) => (
+          <li key={index} className="skills__list-item btn btn--plain">
+            {skill.icon}
+            <h5>{skill.name}</h5>
+          </li>
+        ))}
       </div>
     </section>
   );

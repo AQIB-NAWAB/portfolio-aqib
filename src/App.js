@@ -22,7 +22,6 @@ const App = () => {
       <main>
      
         <Home/>
-        <About />
         <Skills />
         <Projects />
         
