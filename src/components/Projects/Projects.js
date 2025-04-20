@@ -140,6 +140,7 @@ const projects = [
     ],
     liveLink: "https://trakha-app.vercel.app/",
     images: [
+      "/projects/t1.png",
       "/projects/toolHome.png",
       "/projects/toolCal.png",
       "/projects/toolChart.png",
